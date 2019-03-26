@@ -1,0 +1,21 @@
+
+      p {color: blue;}
+      h1 {background-color: rgb(21, 168, 41);
+      font-size:90px; }
+      #p1 {
+        color: red;
+        background-color: black;
+      }
+      #p2 {
+        color: yellow;
+        Background-color: green;
+      }
+      #p3{
+        color: brown;
+        background-color:teal;
+    
+      }
+      #p4{
+        background-color:violet;
+        color:whitesmoke;
+      }
