@@ -4,9 +4,9 @@ var count = 2;
 var questionArray = [ 'whats my lucky number', 'what was my score on a quiz','how many miles do I travel everyday?', 'what is the passing score?'];
 var correctAnswers = 0;
 
-document.addEventListener('DOMContentLoaded', start);
+document.addEventListener('DOMContentLoaded', beginGame);
 
-function start() {
+function beginGame() {
   do {
     var answer = prompt('My name is Tom (Yes/No)?');
     answer = answer.toLowerCase();
