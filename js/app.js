@@ -8,29 +8,29 @@ document.addEventListener('DOMContentLoaded', beginGame);
 
 function beginGame() {
   do {
-    var answer = prompt('My name is Tom (Yes/No)?');
+    var answer = prompt('My last Name starts with P? (Yes/No)?');
     answer = answer.toLowerCase();
   }while(answer !=='y'&& answer!=='n'&&answer!=='yes'&&answer!=='no');
 
   if (answer ==='yes'||answer==='y') {
-    alert('we have the same name');}
-  else {alert('Welcome to the game');}
-  console.log( 'what is my name?');
+    alert('Yes you are right.');}
+  else {alert('Thats incorrect');}
+  console.log( 'The user replied');
   do {
     answer = prompt('I live in Seattle (Yes/No)?');
     answer = answer.toLowerCase();
   }while(answer !=='y'&& answer!=='n'&&answer!=='yes'&&answer!=='no');
 
   if (answer ==='yes'||answer==='y') {
-    alert('we live in different place');
+    alert('Unfortunately no');
   }else {
-    alert('I might know where that is');
+    alert('I live 45 miles away from Seattle');
     correctAnswers++;
     console.log(correctAnswers);
   }
-  console.log( 'where do I live?');
+  console.log( 'The user replied the question');
   do {
-    answer = prompt('I eat sandwich(Yes/No)?');
+    answer = prompt(' Do I eat sandwich(Yes/No)?');
     answer = answer.toLowerCase();
   }while(answer !=='y'&& answer!=='n'&&answer!=='yes'&&answer!=='no');
 
@@ -39,35 +39,35 @@ function beginGame() {
     correctAnswers++;
     console.log(correctAnswers);
   } else {
-    alert('Good guess');
+    alert('I do eat sandwich!!');
   }
-  console.log( 'what do I eat?');
+  console.log( 'The user responded the question.');
   do {
     answer = prompt('I study in Seattle (Yes/No)?');
     answer = answer.toLowerCase();
   }while(answer !=='y'&& answer !=='n' && answer !== 'yes'&& answer!=='no');
 
   if (answer ==='yes'||answer==='y') {
-    alert('Its a nice place to study');
+    alert('Yes Indeed!!');
     correctAnswers++;
     console.log(correctAnswers);
   }else {
-    alert('which city do I study?');
+    alert('You should have answered yes to the question');
   }
-  console.log( 'where do I study?');
+  console.log( 'The user responded');
   do {
-    answer = prompt('I commute by train (Yes/No)?');
+    answer = prompt('Do I play Tennis? (Yes/No)?');
     answer = answer.toLowerCase();
   }while(answer !=='y'&& answer!=='n'&&answer!=='yes'&&answer!=='no');
 
   if (answer ==='yes'||answer==='y') {
-    alert('Thats a nice way to travel');
+    alert('Yes I do');
     correctAnswers++;
     console.log(correctAnswers);
   }else {
-    alert('try travellin train');
+    alert('Tennis is one of the sports I play');
   }
-  console.log( 'how do I travel?');
+  console.log( 'The user responded ');
 
   // gotta figure out how to handle empty inputs for questions 6 and 7
   alert('now lets play first guessing game! You get few tries');
@@ -119,3 +119,6 @@ function beginGame() {
 
   console.log('this is how many the user got correct', correctAnswers);
 }
+
+
+

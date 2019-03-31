@@ -1,21 +1,36 @@
 
-      p {color: blue;}
-      h1 {background-color: rgb(21, 168, 41);
-      font-size:90px; }
-      #p1 {
-        color: red;
-        background-color: black;
+      p {color:rgb(235, 160, 20);
+      font-family: "Times New Roman", sans-serif;
+      background-color: black;
+      font-size 11px;
       }
-      #p2 {
-        color: yellow;
-        Background-color: green;
-      }
-      #p3{
-        color: brown;
-        background-color:teal;
+      h1 {background-color:black;
+      font-size:30px; 
+      font-style:italic;
+      color:white;
+    }
     
-      }
-      #p4{
-        background-color:violet;
-        color:whitesmoke;
-      }
+  #me {
+    color: violet;
+    text-align: center;
+    font-style: oblique;
+    text-emphasis-color: red;
+     
+  }
+  #head-id{
+    font-size: 20;
+    color: white;
+    background-color: blanchedalmond;
+  }
+  .about-me {
+    color: rgb(176, 0, 2);
+    font-style: oblique;
+    background-color: azure;
+    text-align: center;
+    
+  }
+   .img-mount {
+     width:1425px ;
+
+   }
+     
